@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>add car</title>
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="home.php">CARrent</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="d-flex" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="link nav-link active" aria-current="page" href="home1.php">Home</a>
+              </li>
+              <a href="rent.php">  <button type="button" class="btn btn-danger">Car List</button></a>
+            
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+
+
+      <h1 style="text-align: center;"> Add Car Detail </h1>
+      
+    
+      <div class="formadd">
+        <form method="post" action="rent.php">
+            <label for="fname">Add image</label><br>
+            <input type="file"  name="image" ><br>
+            <label for="fname">Vehicle model: </label><br>
+            <input type="text" name="model" ><br>
+            <label for="lname">Vehicle number: </label><br>
+            <input type="number" name="number" ><br><br>
+            <label for="lname">seating capacity: </label><br>
+            <input type="number" name="seat"><br><br>
+            <label for="number">rent per day: </label><br>
+            <input type="number" name="rent"><br><br>
+            <input type="submit" value="ADD">
+          </form> 
+      </div>
+
+
+<div class="foot">
+        <div class="foot1">
+          <div>
+            <h1>CARrent</h1>
+          </div>
+          <div>
+            <h6>For customers</h6>
+            <br />
+            Overview <br />
+            Startup car <br />
+            low budget car <br />
+            Featured <br />
+            costly car <br />
+            our Startups <br />
+            Remote
+          </div>
+          <div>
+            <h6>For agency</h6> <br />
+            Overview <br />
+            agency Pro <br />
+            Curated <br />
+            agencyCloud <br />
+            agency about <br />
+            Pricing
+          </div>
+          <div>
+            <h6>About us</h6>
+            <br />
+            About <br />
+            AngelList Venture <br />
+            Help <br />
+            Blog <br />
+            Terms & Risks <br />
+            Privacy & Cookies
+          </div>
+        </div>
+        <div class="foot2">
+          <div>
+            Copyright © 2023 carrent (formerly AngelList Talent). All rights
+            reserved.
+          </div>
+          <div>
+            Browse by: technology, car, showroom, mexico, etc
+          </div>
+        </div>
+      </div>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,122 @@
+.link{
+    
+    border-left: 2px solid rgb(0, 0, 0);
+    height: 50px;
+    margin-right: 80px;
+      
+}
+.foot{
+    background-color: rgb(9, 9, 75);
+  }
+  
+  .foot1{
+    color: aliceblue;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    margin: 30px 0 30px 0;
+  }
+  .foot2{
+    display: flex;
+    color: aliceblue;
+    justify-content: space-evenly;
+  }
+
+  .img1{
+    margin-left: 200px;
+    border-radius: 50%;
+    width: 400px;
+    } 
+    .about{
+     
+      height: 400px;
+      background-color: rgb(96, 130, 243);
+      display: flex;
+    }
+    
+    .about1{
+      color: white;
+      text-shadow: 2px 2px 4px #000000;
+      font-size: 100px;
+      padding-left: 70px;
+      padding-top: 30px;
+    }
+    .about2{
+      text-shadow: 2px 2px 8px #FF0000;
+      color: rgb(241, 210, 168);
+      padding-left: 50px;
+      padding-top: 30px;
+    }
+    .about3{
+      color: white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    
+      margin-top: 30px;
+      margin-left: 90px;
+    }
+
+
+
+    form {border: 3px solid #f1f1f1;}
+
+input[type=number], input[type=password], input[type=email],select  {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #fa2424;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+.formadd{
+    background-color: #ffce8e;
+    margin-left: 550px;
+    width: 300px;
+    border: 2px solid red;
+  padding: 20px;
+  margin-top: 40px;
+  border-radius: 50px 20px;
+}
+.form{
+  width: 600px;
+  background-color: #fad4ba;
+  margin-top: 30px;
+  margin-left: 400px;
+  border-radius: 25px;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px red;
+}
+.form1{
+
+  display: flex;
+  justify-content: space-around;
+}
+.form2{
+  display: flex;
+  justify-content: space-around;
+}
